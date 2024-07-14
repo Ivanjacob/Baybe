@@ -1,0 +1,44 @@
+.welcome {
+    background-color: #87CEEB;
+    width: 100vw; 
+    height: 100vh; 
+}
+
+.welcome-content {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.welcome-slogan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.welcome-slogan p {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: black;
+    font-weight: 600;
+}
+.welcome-slogan input{
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* 
+.welcome-banner {
+    width: 50%; /* Adjust as needed *//*
+    display: flex;
+    justify-content: flex-end; /* Align image to the right *//*
+}
+
+.welcome-banner img {
+    max-width: 50vw;
+    object-fit: cover;
+    height: auto;
+} */
