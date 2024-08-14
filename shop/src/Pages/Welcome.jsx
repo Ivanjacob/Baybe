@@ -10,9 +10,14 @@ const Welcome = () => {
       <div className="welcome-content">
         <div className="welcome-slogan">
           <p>Your baby gets more, <br/> You pay less </p>
-          <input type="text" placeholder="Search" />
+          <div className="search-container">
+            <input type="text" placeholder="Search" />
+            <button>
+              <i className="fa fa-search"></i>
+            </button>
+          </div>
         </div>
-        <div className="Welcome-banner">
+        <div className="welcome-banner">
           <img src={bannerImage} alt="Baby" />
         </div>
       </div>

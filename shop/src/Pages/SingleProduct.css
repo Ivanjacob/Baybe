@@ -1,0 +1,91 @@
+.product-detail {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+  }
+  
+  .product-carousel {
+    flex: 1;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .product-info {
+    flex: 2;
+    margin-left: 80px;
+    padding: 30px;
+    display: table-column;
+  }
+  .product-name {
+    margin-left: 50px;
+    color: #007FFF;
+    font-size: 20px;
+}
+    
+  ul {
+    list-style: none;
+    padding: 10px;
+  }
+  
+  li {
+    padding: 5px 0;
+    font-weight: 400;
+  }
+  
+
+
+.price-tab{
+  padding: 20px;
+}
+.price-amount{
+  font-weight: 800;
+  font-size: 28px;
+  color: #000;
+}
+.discount-amount{
+  color: #007FFF;
+  font-size: 18px;
+  font-weight: 600;
+}
+.condition-button{
+  display: flex;
+  flex: auto;
+  gap: 15px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.cart-buttons{
+  display:flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/**************************/
+@keyframes love-emojis {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100px) scale(0.5);
+    opacity: 0;
+  }
+}
+
+.emoji-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  display: flex;
+  gap: 10px;
+}
+
+.emoji{
+  font-size: 24px;
+  animation: love-emojis 10s forwards;
+}

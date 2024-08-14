@@ -1,0 +1,26 @@
+.custom-buttone,
+.custom-link {
+    display: inline-block;
+    width: 450px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    cursor: pointer;
+    padding: 0 10px;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid transparent;
+    border-radius: 80px;
+    transition: background-color o.3s, color 0.3s, border-color 0.3s;
+}
+.custom-buttone:hover{
+    opacity: 0.9;
+}
+
+.custom-link{
+    text-decoration: none;
+}

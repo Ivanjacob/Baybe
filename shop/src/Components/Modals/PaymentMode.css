@@ -1,0 +1,37 @@
+/* src/components/PaymentMode.css */
+.payment-mode-container {
+    margin: 20px 0;
+  }
+  
+  .payment-mode-container label {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .custom-select-container {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+  }
+  
+  .custom-select {
+    width: 100%;
+    padding: 5px 10px 5px 30px; /* Adjust padding to make space for the arrow */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    appearance: none; /* Remove default arrow */
+    background: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTQgNkw4IDEwTDExLjUgNkwxMyAzTDggMTBMOCAxMUwzIDIgTTEyIDNMMC41IDZMMTAgMjBMMyAyMyA0IDIyTTEyIDNMMC41IDYgMCAwIiBmaWxsPSIjNDBENDA0IiBzdHJva2U9IiM2NjYiLz4KPC9zdmc+Cg==') no-repeat 10px center;
+    background-size: 16px 16px; /* Adjust size of the arrow */
+  }
+  
+  .custom-select:focus {
+    outline: none;
+    border-color: #00796b;
+  }
+  
+  .selected-mode {
+    margin-top: 10px;
+    font-style: italic;
+    color: #00796b;
+  }
+  

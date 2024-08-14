@@ -1,0 +1,138 @@
+.cart-container {
+    padding: 40px;
+    background-color: #f8f8f8;
+    text-align: center;
+  }
+
+.cart-message {
+    background-color: #e0f7fa;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    color: #00796b;
+}
+  
+  .cart-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+
+  /** CART SUMMARY**/
+
+.cart-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 10px;
+    padding-left: 120px;
+}
+  
+.cart-item {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 100%;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.cart-item-details {
+    display: flex;
+    align-items: center;
+} 
+.cart-item-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.item-name{
+    text-align: center;
+    justify-content: center;
+    font-size: 14px;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Add blur effect */
+    opacity: 0.8; /* Add slight opacity */
+}
+.cart-price-details{
+    display: flex;
+    align-items: center;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Add blur effect */
+    opacity: 0.8; /* Add slight opacity */
+    
+}
+.delete-icon {
+    color: red;
+    margin-right: 5px;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Add blur effect */
+    opacity: 0.8; /* Add slight opacity */
+    cursor: pointer;
+}
+.cart-item-price {
+    font-weight: bold;
+    color: #00796b;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Add blur effect */
+    opacity: 0.8; /* Add slight opacity */
+}
+
+/** CART SUMMARY**/
+
+.cart-summary {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+
+.cart-total, .cart-savings {
+    margin-right: 20px;
+}
+
+/* cART BUTTONS */
+
+.cart-buttone {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Delete Button */
+
+.confirmation-dialog {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    border-radius: 5px;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #e0f7fa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  .confirmation-dialog p {
+    margin-bottom: 20px;
+  }
+  
+  .confirmation-dialog button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+.yes-button{
+    background-color: #ff0000;
+    border-radius: 8px;
+}
+.no-button{
+    background: #00c3ff;
+    border-radius: 8px;
+}

@@ -1,54 +1,79 @@
-.navbar{
+.navbars{
     display: flex;
-    justify-content: space-around;
-    padding: 16px;
+    justify-content: space-between;
+    background-color: #87CEEB;
+    padding: 10px 20px;
     box-shadow: 0;
+
+    align-items: center;
 }
-.nav-logo{
+.navs-logo{
     display: flex;
     align-items: center;
-    gap: 10px;
+    /*gap: 10px;*/
 }
-.nav-logo img {
-    width: 60px; /* Adjust the logo size */
-    height: auto;
+.navs-logo img {
+    width: 55px; /* Adjust the logo size */
+    /*height: auto;*/
 }
-.nav-logo p{
+.navs-logo p{
     color: #171717;
     font-size: 38px;
     font-weight: 600;
+    text-decoration: wavy;
+    font-style: italic;
 }
-.nav-menu{
+.navs-menu{
     display: flex;
     align-items: center;
-    list-style: none;
+    list-style-type: none;
     gap: 50px;
     color: #626262;
     font-size: 20px;
     font-weight: 500;
+
+    padding: 0;
+    margin: 0;
 }
 
-.nav-menu li{
+.navs-menu li{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 3px;
     cursor: pointer;
+
+    position: relative;
+    padding: 10px 0;
 }
-.nav-menu hr{
+
+
+.navs-menu a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.navs-menu hr{
     border: none;
     width: 80%;
-    height: 3px;
-    border-radius: 10px;
+    height: 1px;
+    border-radius: 4px;
     background: #FF4141;
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin: 0;
+    transition: background-color 0.3s;
 }
-.nav-login-cart{
+.navs-login-cart{
     display: flex;
     align-items: center;
     gap: 45px;
 }
-.nav-login-cart button{
+.navs-login-cart button{
     width: 157px;
     height: 45px;
     outline: none;
@@ -59,15 +84,17 @@
     font-weight: 500;
     background: white;
     cursor: pointer;
+
+    padding: 5px 10px;
 }
-.nav-login-cart img {
+.navs-login-cart img {
     width: 40px; /* Adjust the cart icon size */
     height: auto;
 }
-.nav-login-cart button:active{
+.navs-login-cart button:active{
     background: #f3f3f3;
 }
-.nav-cart-count{
+.navs-cart-count{
     width: 22px;
     height: 22px;
     display: flex;

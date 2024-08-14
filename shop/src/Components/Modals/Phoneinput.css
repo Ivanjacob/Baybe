@@ -1,0 +1,11 @@
+/* src/components/PhoneNumberInput.css */
+.phone-number-input {
+    margin: 20px;
+  }
+  
+  .phone-number-input label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
